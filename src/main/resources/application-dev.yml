@@ -13,6 +13,6 @@ spring:
 #    username: panther
 #    password: tech3014
 
-  sql:
-    init:
-      mode: always
+sql:
+  init:
+    mode: always

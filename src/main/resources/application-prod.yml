@@ -1,10 +1,9 @@
 spring:
   datasource:
-    url: ${MYSQL_URL}
-    username: ${MYSQL_USERNAME}
-    password: ${MYSQL_PASSWORD}
-    name: sistema-examenes-api
+    url: jdbc:mysql://root:IbooPacZ9JqnE1JgQ0zs@containers-us-west-51.railway.app:6674/railway
+    username: root
+    password: IbooPacZ9JqnE1JgQ0zs
 
-  sql:
-    init:
-      mode: always
+sql:
+  init:
+    mode: always
