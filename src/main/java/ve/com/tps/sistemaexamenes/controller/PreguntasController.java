@@ -12,7 +12,7 @@ import ve.com.tps.sistemaexamenes.services.PreguntasService;
 import java.util.*;
 
 @RestController
-@RequestMapping("/preguntas")
+@RequestMapping("/api/preguntas")
 @CrossOrigin("*")
 public class PreguntasController {
 

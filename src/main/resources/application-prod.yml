@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: ${MYSQL_URL}
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+    name: sistema-examenes-api
+
+  sql:
+    init:
+      mode: always

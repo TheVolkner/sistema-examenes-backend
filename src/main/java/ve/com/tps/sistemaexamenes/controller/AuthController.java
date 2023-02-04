@@ -22,7 +22,7 @@ import ve.com.tps.sistemaexamenes.services.validation.CustomUserDetailsService;
 import java.security.Principal;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/api/auth")
 @Slf4j
 //ACEPTAMOS PETICIONES DEL FRONT-END
 @CrossOrigin("*")

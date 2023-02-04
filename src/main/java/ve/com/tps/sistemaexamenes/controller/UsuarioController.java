@@ -15,7 +15,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @RestController
-@RequestMapping("/usuarios")
+@RequestMapping("/api/usuarios")
 //ACEPTAMOS PETICIONES DEL FRONT-END
 @CrossOrigin("*")
 public class UsuarioController {
