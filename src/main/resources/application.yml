@@ -1,0 +1,34 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+
+server:
+  contextPath: /
+  port: 8080
+
+info:
+  application:
+    name: Sistema de Exámenes Back - End
+    description: API RESTFul para los servicios de la app Sistema Exámenes
+    author: Omar Arvelo
+    version: '1'
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+  profiles:
+    active: dev
+
+app:
+  jwt-secret: TechPantherSystemsJWT2023
+  jwt-expiration-milliseconds: 604800000
