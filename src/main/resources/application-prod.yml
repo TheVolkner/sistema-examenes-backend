@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${MYSQL_URL}
-    username: ${MYSQLUSER}
-    password: ${MYSQLPASSWORD}
+    url: jdbc:mysql://root:kPyLT74fiZdQ3WwdBtCw@containers-us-west-128.railway.app:6839/railway
+    username: root
+    password: kPyLT74fiZdQ3WwdBtCw
 
   sql:
     init:
