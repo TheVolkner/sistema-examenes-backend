@@ -9,6 +9,6 @@ public class PasswordEncoderGenerator {
 
         PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 
-        System.out.println(passwordEncoder.encode("leo123"));
+        System.out.println(passwordEncoder.encode("alumnoJuan456"));
     }
 }
